@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    font-family: Arial;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h3 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    margin: 6px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h3>Select Subject</h3>
+
+    <form method="POST" action="/start">
+
+        <button type="submit" name="subject" value="Materia Medica">Materia Medica</button>
+        <button type="submit" name="subject" value="Organon">Organon</button>
+        <button type="submit" name="subject" value="Repertory">Repertory</button>
+        <button type="submit" name="subject" value="FMT">FMT</button>
+
+        <button type="submit" name="subject" value="Anatomy">Anatomy</button>
+        <button type="submit" name="subject" value="Physiology">Physiology</button>
+        <button type="submit" name="subject" value="Pharmacy">Pharmacy</button>
+        <button type="submit" name="subject" value="Pathology">Pathology</button>
+
+        <button type="submit" name="subject" value="OBG">OBG</button>
+        <button type="submit" name="subject" value="Surgery">Surgery</button>
+        <button type="submit" name="subject" value="Practice of Medicine">Practice of Medicine</button>
+        <button type="submit" name="subject" value="Community Medicine">Community Medicine</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>

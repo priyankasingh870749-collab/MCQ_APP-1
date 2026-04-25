@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    font-family: Arial;
+    padding:20px;
+    background:#f5f5f5;
+}
+
+.container {
+    max-width:600px;
+    margin:auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+}
+
+h3 {
+    text-align:center;
+}
+
+.box {
+    margin:10px 0;
+    padding:12px;
+    border-radius:8px;
+    background:#ffe6e6;
+}
+
+.answer {
+    margin-top:5px;
+    font-size:15px;
+}
+
+.correct-text {
+    color:green;
+    font-weight:bold;
+}
+
+.wrong-text {
+    color:red;
+    font-weight:bold;
+}
+
+.option {
+    margin-left:10px;
+    font-size:14px;
+    color:#333;
+}
+
+button {
+    width:100%;
+    padding:12px;
+    margin-top:15px;
+    background:#007BFF;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover {
+    background:#0056b3;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h3>Result</h3>
+
+<p><strong>Score:</strong> {{ score }} / {{ total }}</p>
+
+<h4>Wrong Questions</h4>
+
+{% for q in wrong %}
+<div class="box">
+
+    <!-- Question -->
+    <p><strong>{{ q.question }}</strong></p>
+
+    <!-- Options -->
+    <div class="option">A = {{ q.options[0] }}</div>
+    <div class="option">B = {{ q.options[1] }}</div>
+    <div class="option">C = {{ q.options[2] }}</div>
+    <div class="option">D = {{ q.options[3] }}</div>
+
+    <!-- Your Answer -->
+    <p class="answer wrong-text">
+        Your Answer:
+        {{ q.selected }} → {{ q.options[["A","B","C","D"].index(q.selected)] }}
+    </p>
+
+    <!-- Correct Answer -->
+    <p class="answer correct-text">
+        Correct Answer:
+        {{ q.correct }} → {{ q.options[["A","B","C","D"].index(q.correct)] }}
+    </p>
+
+</div>
+{% endfor %}
+
+<!-- Back Button -->
+<form action="/">
+    <button type="submit">⬅ Back to Home</button>
+</form>
+
+</div>
+
+</body>
+</html>

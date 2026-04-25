@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body { font-family: Arial; padding:20px; background:#f5f5f5; }
+.container { max-width:600px; margin:auto; background:white; padding:20px; border-radius:10px; text-align:center; }
+button { padding:15px; background:#28a745; color:white; border:none; border-radius:8px; width:100%; }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h3>{{ subject }}</h3>
+
+    <p>Wrong Questions: {{ wrong }}</p>
+    <p>New Questions: {{ new }}</p>
+    <p><strong>Total Today: {{ total }}</strong></p>
+
+    <form action="/mcq">
+        <button type="submit">Start MCQ</button>
+    </form>
+</div>
+
+</body>
+</html>
