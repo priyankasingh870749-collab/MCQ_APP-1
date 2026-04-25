@@ -63,15 +63,12 @@ def register_routes(app):
         session["results"] = []
 
         today = str(date.today())
-
         ids, saved_index = get_today_set(today)
 
-        # 🔥 FIXED LOGIC
+        # Resume OR create new set
         if ids and saved_index < len(ids):
-            # resume ongoing set
             session["index"] = saved_index
         else:
-            # create NEW set (even same day)
             start_time = time.time()
 
             questions = load_questions(FILE)
@@ -97,6 +94,7 @@ def register_routes(app):
         ids = session.get("today_ids", [])
         idx = session.get("index", 0)
 
+        # ✅ SAFE CHECK
         if idx >= len(ids):
             return redirect("/result")
 
@@ -104,7 +102,8 @@ def register_routes(app):
 
         questions = load_questions(FILE)
         id_map = {q["id"]: q for q in questions}
-        q = id_map.get(ids[idx])
+
+        q = id_map.get(ids[idx]) if idx < len(ids) else None
 
         print("MCQ LOAD TIME:", time.time() - start_time)
 
@@ -129,11 +128,16 @@ def register_routes(app):
         ids = session.get("today_ids", [])
         idx = session.get("index", 0)
 
+        # ✅ VERY IMPORTANT FIX
+        if idx >= len(ids):
+            return redirect("/result")
+
         start_time = time.time()
 
         questions = load_questions(FILE)
         id_map = {q["id"]: q for q in questions}
-        q = id_map.get(ids[idx])
+
+        q = id_map.get(ids[idx]) if idx < len(ids) else None
 
         print("ANSWER LOAD TIME:", time.time() - start_time)
 
