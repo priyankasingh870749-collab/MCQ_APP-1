@@ -5,7 +5,7 @@ def get_due(questions):
 
     due = []
 
-    # 👉 collect due questions
+    # 👉 collect only truly due questions (no early repetition)
     for q in questions:
         try:
             if q.get("next_date") and q["next_date"] <= today:
@@ -13,13 +13,11 @@ def get_due(questions):
         except:
             continue
 
-    # 🔥 IMPORTANT FIX (never empty)
+    # ❌ removed fallback → no early questions
     if not due:
-        # fallback → first 120 questions
-        due = questions[:120]
+        return []
 
-    # 🔥 OPTIONAL IMPROVEMENT (better learning)
-    # wrong questions first
+    # 🔥 better learning: wrong first
     wrong = [q for q in due if q.get("last_result") == "wrong"]
     correct = [q for q in due if q.get("last_result") != "wrong"]
 
