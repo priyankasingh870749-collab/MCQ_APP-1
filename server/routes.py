@@ -18,10 +18,8 @@ SUBJECT_FILES = {
     "organon": "organon.csv"
 }
 
-# ✅ FIXED HERE
 DATA_PATH = "data"
 
-# ensure data folder exists
 if not os.path.exists(DATA_PATH):
     os.makedirs(DATA_PATH)
 
@@ -105,13 +103,9 @@ def register_routes(app):
         if ids and saved_index < len(ids):
             session["index"] = saved_index
         else:
-            start_time = time.time()
-
             questions = load_questions(FILE)
             due = get_due(questions)
             ids = [q["id"] for q in due]
-
-            print("NEW SET LOAD TIME:", time.time() - start_time)
 
             save_today_set(today, ids, 0, DAILY_FILE)
             session["index"] = 0
@@ -165,7 +159,16 @@ def register_routes(app):
 
         DAILY_FILE = get_file_path("daily_sets.csv")
 
-        selected = int(request.form["answer"])
+        # ✅ SAFE INPUT
+        answer_val = request.form.get("answer")
+        if answer_val is None:
+            return redirect("/mcq")
+
+        try:
+            selected = int(answer_val)
+        except:
+            return redirect("/mcq")
+
         options = ["A", "B", "C", "D"]
 
         ids = session.get("today_ids", [])
@@ -187,7 +190,14 @@ def register_routes(app):
         correct = (options[selected] == q["correct"])
 
         update_interval(q, correct)
-        q["next_date"] = date.today() + timedelta(days=q["interval"])
+
+        # ✅ SAFE interval
+        try:
+            interval = int(q.get("interval", 1))
+        except:
+            interval = 1
+
+        q["next_date"] = date.today() + timedelta(days=interval)
 
         session["results"].append({
             "id": q["id"],
@@ -196,7 +206,11 @@ def register_routes(app):
             "status": "correct" if correct else "wrong"
         })
 
-        save_questions(FILE, questions, subject)
+        # ✅ SAFE SAVE
+        try:
+            save_questions(FILE, questions, subject)
+        except Exception as e:
+            print("SAVE ERROR:", e)
 
         session["index"] = idx + 1
         save_today_set(str(date.today()), ids, session["index"], DAILY_FILE)
