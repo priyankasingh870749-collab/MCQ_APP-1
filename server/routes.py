@@ -18,7 +18,8 @@ SUBJECT_FILES = {
     "organon": "organon.csv"
 }
 
-DATA_PATH = "/data"
+# ✅ FIXED HERE
+DATA_PATH = "data"
 
 # ensure data folder exists
 if not os.path.exists(DATA_PATH):
