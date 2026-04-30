@@ -86,7 +86,6 @@ def register_routes(app):
 
     @app.route("/start", methods=["POST"])
     def start():
-        session["results"] = []
 
         subject = request.form.get("subject")
         session["subject"] = subject
@@ -99,23 +98,26 @@ def register_routes(app):
         today = str(date.today())
         ids, saved_index = get_today_set(today, DAILY_FILE)
 
-        # ✅ RESUME ONLY if unfinished
-        if ids and saved_index < len(ids):
+        # ✅ Resume existing session properly
+        if ids:
+            session["today_ids"] = ids
             session["index"] = saved_index
 
+            if "results" not in session:
+                session["results"] = []
+
         else:
-            # 🔥 ALWAYS generate fresh set after completion
+            # 🔥 Create fresh set
             questions = load_questions(FILE)
 
-            used_ids = set()  # reset for new set
-
-            due = get_due(questions, used_ids)
+            due = get_due(questions, set())
             ids = [q["id"] for q in due]
 
             save_today_set(today, ids, 0, DAILY_FILE)
-            session["index"] = 0
 
-        session["today_ids"] = ids
+            session["today_ids"] = ids
+            session["index"] = 0
+            session["results"] = []
 
         return render_template(
             "summary.html",
