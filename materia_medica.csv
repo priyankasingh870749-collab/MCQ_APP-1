@@ -1,182 +1,182 @@
-id	question	option1	option2	option3	option4	correct	interval	next_date	last_result	subject
-1	Marked prostration with constant desire to lie down; gastric catarrh present. Choose remedy.	Abies canadensis	China	Gelsemium	Arsenicum album	A	1	30/4/2026		Materia Medica
-2	Ravenous appetite but weak digestion; eats beyond capacity ? distention.	Abies canadensis	Iodum	Lycopodium	Nux vomica	A	1	30/4/2026		Materia Medica
-3	Sensation as if ï¿½blood were ice-waterï¿½ with chillinessï¿½closest remedy?	Aconite	Abies canadensis	China	Ammon mur	A	1	30/4/2026		Materia Medica
-4	Cold sensation between scapulaeï¿½most characteristic of which differential?	Abies canadensis	Ammon mur	China	Aconite	B	1	30/4/2026		Materia Medica
-5	Flatulence interfering with cardiac action causing palpitation.	Carbo veg	Abies canadensis	Lycopodium	Digitalis	B	1	30/4/2026		Materia Medica
-6	Uterine displacement with soreness at fundus, better by pressure + debility.	Abies canadensis	Sepia	Lilium tigrinum	Murex	A	1	30/4/2026		Materia Medica
-7	Craving for coarse food (radish, turnip, pickles) with gastric disturbance.	Abies canadensis	Sulphur	Calcarea carb	Nux vomica	A	1	30/4/2026		Materia Medica
-8	Peculiar sensation: right lung and liver feel small and hard.	Abies canadensis	Bryonia	Chelidonium	Phosphorus	A	1	30/4/2026		Materia Medica
-9	Night sweats with debility but due to fluid loss (not gastric).	Abies canadensis	China	Arsenicum album	Phosphoric acid	B	1	30/4/2026		Materia Medica
-10	Gnawing, empty, faint feeling at epigastrium with hunger.	Abies canadensis	Anacardium	Iodum	Sepia	A	1	30/4/2026		Materia Medica
-11	Patient chilly, clammy, weak, wants to lie down constantly; gastric catarrh.	Abies canadensis	Gelsemium	Pulsatilla	Arsenicum album	A	1	30/4/2026		Materia Medica
-12	Irritable, light-headed, ï¿½tipsyï¿½ feeling with gastric symptoms.	Abies canadensis	Nux vomica	Chamomilla	Cocculus	A	1	30/4/2026		Materia Medica
-13	Feeling ï¿½womb is soft and feebleï¿½ with displacement and debility.	Abies canadensis	Sepia	Murex	Lilium tigrinum	A	1	30/4/2026		Materia Medica
-14	Constipation with burning in rectum along with gastric symptoms.	Abies canadensis	Sulphur	Nux vomica	Aloe	A	1	30/4/2026		Materia Medica
-15	Gleet with mucous membrane involvement and gastric disturbance.	Abies canadensis	Thuja	Medorrhinum	Pulsatilla	A	1	30/4/2026		Materia Medica
-16	Theme: ï¿½Lump sensation in stomachï¿½ + after eating aggravation. Select remedy.	China	Abies nigra	Lycopodium	Nux vomica	B	1	30/4/2026		Materia Medica
-17	Theme: Gastric disorder in elderly + heart symptoms (functional).	Digitalis	Abies nigra	Crataegus	Kali carb	B	1	30/4/2026		Materia Medica
-18	Requirement: Pain always after eating + constriction above stomach.	Abies nigra	Nux vomica	Bryonia	Pulsatilla	A	1	30/4/2026		Materia Medica
-19	Theme: Knotted feeling at epigastrium + distress after meals.	Ignatia	Abies nigra	Anacardium	Colocynth	B	1	30/4/2026		Materia Medica
-20	Requirement: Loss of appetite morning but hunger later (noon/night).	Lycopodium	Sulphur	Abies nigra	Psorinum	C	1	30/4/2026		Materia Medica
-21	Theme: Chest compression + cannot expand lungs fully.	Phosphorus	Abies nigra	Antimonium tart	Kali carb	B	1	30/4/2026		Materia Medica
-22	Requirement: Waterbrash after cough + gastric pathology.	Abies nigra	Bryonia	Drosera	Spongia	A	1	30/4/2026		Materia Medica
-23	Theme: Dyspnea worse lying down + irregular heart action.	Digitalis	Abies nigra	Lachesis	Arsenicum album	B	1	30/4/2026		Materia Medica
-24	Requirement: Wakeful at night + hunger + bad dreams.	Psorinum	Sulphur	Abies nigra	Cina	C	1	30/4/2026		Materia Medica
-25	Theme: Offensive breath + eructations + gastric catarrh.	Nux vomica	Carbo veg	Abies nigra	Pulsatilla	C	1	30/4/2026		Materia Medica
-26	Requirement: Aggravation after tea and tobacco.	Abies nigra	Nux vomica	Sulphur	Lycopodium	A	1	30/4/2026		Materia Medica
-27	Theme: Something lodged in chest ? needs to cough out.	Kali carb	Abies nigra	Phosphorus	Drosera	B	1	30/4/2026		Materia Medica
-28	Requirement: Chronic intermittent fever with gastric pain.	China	Eupatorium perf	Abies nigra	Arsenicum album	C	1	30/4/2026		Materia Medica
-29	Theme confusion: Lump sensation but better from eructation (NOT Abies).	Abies nigra	China	Lycopodium	Nux vomica	B	1	30/4/2026		Materia Medica
-30	Core modality of remedy ABIES NIGRA	Better fasting	Worse after eating	Better motion	Worse morning	B	1	30/4/2026		Materia Medica
-31	Rapidly spreading purulent conjunctivitis extending to face and neck.	Euphrasia	Abrus precatorius	Belladonna	Merc sol	B	1	30/4/2026		Materia Medica
-32	Granular lids / ophthalmia with intense suppuration and destructive tendency.	Pulsatilla	Sulphur	Abrus precatorius	Calcarea carb	C	1	30/4/2026		Materia Medica
-33	Remedy used to induce artificial purulent inflammation in trachoma.	Euphrasia	Jequiritol	Argentum nit	Nat mur	B	1	30/4/2026		Materia Medica
-34	Keratitis with marked purulent discharge and rapid tissue involvement.	Merc cor	Abrus precatorius	Nitric acid	Kali bich	B	1	30/4/2026		Materia Medica
-35	Eye inflammation spreading beyond local tissue ? face and neck.	Apis	Abrus precatorius	Rhus tox	Belladonna	B	1	30/4/2026		Materia Medica
-36	Identify the NOT characteristic feature of Abrus.	Purulent ophthalmia	Granular lids	Acrid tears with bland coryza	Spread to face	C	1	30/4/2026		Materia Medica
-37	Pathological sphere of Abrus precatorius is mainly:	Skin	Eye (purulent)	Nervous system	Liver	B	1	30/4/2026		Materia Medica
-38	Epithelioma and lupus with ulcerative tendency involving mucosa.	Arsenicum album	Abrus precatorius	Silicea	Thuja	B	1	30/4/2026		Materia Medica
-39	Which differential shows acrid lachrymation with non-purulent picture?	Abrus precatorius	Euphrasia	Merc sol	Hepar sulph	B	1	30/4/2026		Materia Medica
-40	Marasmus with emaciation of lower extremities only despite good appetite.	Iodum	Abrotanum	Natrum mur	Tuberculinum	B	1	30/4/2026		Materia Medica
-41	Rheumatism following suppressed diarrhoea is a keynote of:	Bryonia	Rhus tox	Abrotanum	Pulsatilla	C	1	30/4/2026		Materia Medica
-42	Metastasis of complaints (bowel ? joints) strongly indicates:	Sulphur	Abrotanum	Lycopodium	Calcarea carb	B	1	30/4/2026		Materia Medica
-43	Appetite good but progressive emaciation with undigested stool (lienteric).	Iodum	Abrotanum	Cina	Sanicula	B	1	30/4/2026		Materia Medica
-44	Haemorrhoids worse when rheumatism improves (alternating states).	Nux vomica	Aloe	Abrotanum	Sulphur	C	1	30/4/2026		Materia Medica
-45	Child cannot hold head up due to extreme weakness in marasmus.	Aethusa	Abrotanum	Calcarea phos	Tuberculinum	B	1	30/4/2026		Materia Medica
-46	Sensation as if bowels are sinking down with abdominal weakness.	Sepia	Abrotanum	Aloe	Podophyllum	B	1	30/4/2026		Materia Medica
-47	Face: old, wrinkled, pale with blue rings around eyes in a child.	Opium	Abrotanum	Cina	Calcarea carb	B	1	30/4/2026		Materia Medica
-48	Alternation of diarrhoea and constipation with worms (ascarides).	Cina	Abrotanum	Teucrium	Sulphur	B	1	30/4/2026		Materia Medica
-49	Gnawing hunger with whining child, yet progressive wasting.	Cina	Abrotanum	Iodum	Chamomilla	B	1	30/4/2026		Materia Medica
-50	Rheumatism with pricking sensation in joints before swelling appears.	Bryonia	Abrotanum	Rhus tox	Ledum	B	1	30/4/2026		Materia Medica
-51	Skin eruptions suppressed ? internal complaints worsen.	Sulphur	Abrotanum	Psorinum	Graphites	B	1	30/4/2026		Materia Medica
-52	Great weakness after influenza (compare).	Kali phos	Abrotanum	Gelsemium	China	A	1	30/4/2026		Materia Medica
-53	Modalities of Abrotanum:	Better cold air	Worse motion	Worse cold air & suppression	Better rest	C	1	30/4/2026		Materia Medica
-54	Child is irritable, cross, depressed, even cruel tendency.	Chamomilla	Cina	Abrotanum	Stramonium	C	1	30/4/2026		Materia Medica
-55	Marasmus with flabby, loose hanging skin folds.	Natrum mur	Abrotanum	Sanicula	Calcarea carb	B	1	30/4/2026		Materia Medica
-56	Pain extending along spermatic cord with lumbar pain.	Clematis	Abrotanum	Berberis	Lycopodium	B	1	30/4/2026		Materia Medica
-57	Dry cough appearing after suppression of diarrhoea.	Bryonia	Abrotanum	Pulsatilla	Drosera	B	1	30/4/2026		Materia Medica
-58	Hydrocele and epistaxis in weak, marasmic boys.	Calcarea carb	Abrotanum	Sulphur	Phosphorus	B	1	30/4/2026		Materia Medica
-59	Key differentiation from Iodum:	Ravenous hunger	Emaciation	Metastatic tendency	Heat aggravation	C	1	30/4/2026		Materia Medica
-60	Remedy producing a perfect picture of epileptiform seizures with nervous tremors preceding attack.	Cicuta	Absinthium	Hydrocyanic acid	Cuprum met	B	1	30/4/2026		Materia Medica
-61	Sudden giddiness with tendency to fall backward.	Gelsemium	Absinthium	Conium	Cocculus	B	1	30/4/2026		Materia Medica
-62	Delirium with frightful hallucinations and loss of consciousness.	Belladonna	Stramonium	Absinthium	Hyoscyamus	C	1	30/4/2026		Materia Medica
-63	Child with nervous excitement, sleeplessness and spasms.	Cina	Absinthium	Chamomilla	Cuprum met	B	1	30/4/2026		Materia Medica
-64	Kleptomania with loss of memory (forgets recent events).	Anacardium	Absinthium	Hyoscyamus	Stramonium	B	1	30/4/2026		Materia Medica
-65	Face becomes blue with spasmodic twitching during convulsions.	Cicuta	Absinthium	Cuprum met	Hydrocy acid	B	1	30/4/2026		Materia Medica
-66	Characteristic mouth symptom: bites tongue during convulsions.	Cuprum met	Absinthium	Cicuta	Belladonna	B	1	30/4/2026		Materia Medica
-67	Sensation as if tongue is swollen and too large, protruding.	Lachesis	Absinthium	Merc sol	Belladonna	B	1	30/4/2026		Materia Medica
-68	Nervous system remedy covering chorea with tremors and excitation.	Agaricus	Absinthium	Zincum met	Tarentula	B	1	30/4/2026		Materia Medica
-69	Poisoning condition where Absinthium is indicated.	Snake bite	Mushroom poisoning	Arsenic poisoning	Opium poisoning	B	1	30/4/2026		Materia Medica
-70	Patient wants nothing to do with anybody, brutal behavior.	Hyoscyamus	Absinthium	Stramonium	Anacardium	B	1	30/4/2026		Materia Medica
-71	Sensation of weight on chest with irregular heart action audible in back.	Digitalis	Absinthium	Crataegus	Kali carb	B	1	30/4/2026		Materia Medica
-72	Urine: deep yellow with strong odor and frequent desire.	Kali phos	Absinthium	Cantharis	Nitric acid	B	1	30/4/2026		Materia Medica
-73	Head symptom: pupils dilated unequally with confusion.	Belladonna	Absinthium	Opium	Gelsemium	B	1	30/4/2026		Materia Medica
-74	Throat symptom: as if a lump with scalded sensation.	Ignatia	Absinthium	Lachesis	Merc sol	B	1	30/4/2026		Materia Medica
-75	Nervous irritation with infantile spasms and sleeplessness.	Cuprum met	Absinthium	Cina	Chamomilla	B	1	30/4/2026		Materia Medica
-76	Paralytic symptoms with tremors and nervous excitement.	Gelsemium	Absinthium	Conium	Plumbum	B	1	30/4/2026		Materia Medica
-77	Key differentiation from Cicuta:	Violent convulsions	Backward bending	Hallucinations + delirium	Opisthotonos	C	1	30/4/2026		Materia Medica
-78	Compared with Hydrocyanic acid, Absinthium shows:	Sudden collapse	Slow pulse	Nervous excitement before seizures	Instant death tendency	C	1	30/4/2026		Materia Medica
-79	Central theme of remedy Absinthium:	Gastro disorder	Skin eruption	Nervous excitement ? convulsions ? delirium	Liver pathology	C	1	30/4/2026		Materia Medica
-80	Incipient phthisis with dry hard cough followed by haemoptysis without fever.	Phosphorus	Acalypha indica	Millefolium	Tuberculinum	B	1	30/4/2026		Materia Medica
-81	Haemorrhage pattern: bright red in morning, dark & clotted later.	Phosphorus	Acalypha indica	Hamamelis	Ipecac	B	1	30/4/2026		Materia Medica
-82	Marked modality: all haemorrhages worse in morning.	Millefolium	Acalypha indica	Phosphorus	Hamamelis	B	1	30/4/2026		Materia Medica
-83	Patient very weak in morning but gains strength during day.	Sulphur	Acalypha indica	China	Psorinum	B	1	30/4/2026		Materia Medica
-84	Cough: dry, hard, racking ? followed by haemoptysis.	Bryonia	Acalypha indica	Drosera	Phosphorus	B	1	30/4/2026		Materia Medica
-85	Rectal haemorrhage with morning aggravation + tenesmus.	Aloe	Acalypha indica	Nux vomica	Merc sol	B	1	30/4/2026		Materia Medica
-86	Diarrhoea with loud flatus, spluttering expulsion and bearing down.	Podophyllum	Acalypha indica	Aloe	Sulphur	B	1	30/4/2026		Materia Medica
-87	Burning sensation in pharynx, oesophagus, stomach with haemorrhagic tendency.	Arsenicum album	Acalypha indica	Phosphorus	Kali bich	B	1	30/4/2026		Materia Medica
-88	Progressive emaciation with pulmonary haemorrhage but no marked fever.	Tuberculinum	Acalypha indica	Phosphorus	Calcarea carb	B	1	30/4/2026		Materia Medica
-89	Pulse: soft and compressible with bleeding tendency.	Phosphorus	Acalypha indica	China	Hamamelis	B	1	30/4/2026		Materia Medica
-90	Compare: haemoptysis with bright red blood but more profuse bleeding (NOT Acalypha).	Acalypha indica	Millefolium	Hamamelis	Ipecac	B	1	30/4/2026		Materia Medica
-91	Burning in intestines with griping pain and distension.	Arsenicum album	Acalypha indica	Colocynth	Sulphur	B	1	30/4/2026		Materia Medica
-92	Skin: jaundice with itching and furuncle-like eruptions.	Chelidonium	Acalypha indica	Sulphur	Graphites	B	1	30/4/2026		Materia Medica
-93	Key differentiation from Phosphorus:	Bright red blood	Lung affinity	Morning aggravation of bleeding	Thirst for cold drinks	C	1	30/4/2026		Materia Medica
-94	Central theme of remedy Acalypha indica:	Nervous spasms	Haemorrhage + lung + morning agg.	Skin eruptions	Liver enlargement	B	1	30/4/2026		Materia Medica
-95	Profound anaemia with dropsy, extreme debility and frequent fainting.	China	Acetic acid	Ferrum met	Arsenicum album	B	1	30/4/2026		Materia Medica
-96	Patient: pale, waxy, lean with lax, flabby muscles.	Calcarea carb	Ferrum met	Acetic acid	Phosphorus	C	1	30/4/2026		Materia Medica
-97	Haemorrhage occurring from multiple mucous outlets (nose, lungs, uterus, bowels).	Millefolium	Acetic acid	Hamamelis	Phosphorus	B	1	30/4/2026		Materia Medica
-98	Intense burning thirst but cold drinks aggravate gastric symptoms.	Arsenicum album	Phosphorus	Acetic acid	Natrum mur	C	1	30/4/2026		Materia Medica
-99	Vomiting after every kind of food with sour eructations.	Ipecac	Nux vomica	Acetic acid	Pulsatilla	C	1	30/4/2026		Materia Medica
-100	Sensation as if abdomen is sinking in causing dyspnoea.	Sepia	Aloe	Acetic acid	Podophyllum	C	1	30/4/2026		Materia Medica
-101	Large quantities of pale urine with diabetes and marked debility.	Phosphoric acid	Uranium nit	Acetic acid	Syzygium jambolanum	C	1	30/4/2026		Materia Medica
-102	Nursing mother: milk bluish, thin, sour with anaemia.	Calcarea carb	Pulsatilla	Acetic acid	Phytolacca	C	1	30/4/2026		Materia Medica
-103	Croup with hissing respiration and cough during inspiration.	Spongia	Hepar sulph	Acetic acid	Bromium	C	1	30/4/2026		Materia Medica
-104	Cannot lie on back; patient feels better lying on abdomen.	Arsenicum album	Pulsatilla	Acetic acid	Ammon carb	C	1	30/4/2026		Materia Medica
-105	Skin: pale, waxy, oedematous with profuse cold sweat.	Apis mellifica	Acetic acid	Arsenicum album	China	B	1	30/4/2026		Materia Medica
-106	Diarrhoea: copious, exhausting with great thirst and weakness.	China	Podophyllum	Acetic acid	Arsenicum album	C	1	30/4/2026		Materia Medica
-107	Burning gastric pain followed by cold skin and cold sweat on forehead.	Veratrum album	Acetic acid	Arsenicum album	Phosphorus	B	1	30/4/2026		Materia Medica
-108	Hectic fever with red spot on left cheek and drenching night sweats.	Phosphorus	Tuberculinum	Acetic acid	China	C	1	30/4/2026		Materia Medica
-109	Liquefaction of albuminous and fibrinous deposits is a key action.	Kali iod	Acetic acid	Silicea	Calcarea fluor	B	1	30/4/2026		Materia Medica
-110	Epithelioma and cancer with marked cachexia and debility.	Conium	Arsenicum album	Acetic acid	Phytolacca	C	1	30/4/2026		Materia Medica
-111	Great prostration after surgical shock, injuries or anaesthesia.	Arnica	Carbo veg	Acetic acid	China	C	1	30/4/2026		Materia Medica
-112	Diarrhoea worse in morning with watery stools.	Sulphur	Acetic acid	Podophyllum	Aloe	B	1	30/4/2026		Materia Medica
-113	NOT characteristic of Acetic acid:	Profuse urination	Intense thirst	No thirst during fever	Thirstless in general	D	1	30/4/2026		Materia Medica
-114	Compare: bleeding more passive, venous, dark (NOT Acetic acid).	Acetic acid	Hamamelis	Millefolium	Phosphorus	B	1	30/4/2026		Materia Medica
-115	Key differentiation from Phosphorus:	Bright red bleeding	Lung involvement	Cold drinks aggravate	Thirst for cold drinks	C	1	30/4/2026		Materia Medica
-116	Remedy indicated in dropsy with great thirst and debility.	Apis mellifica	Acetic acid	Arsenicum album	Digitalis	B	1	30/4/2026		Materia Medica
-117	Salivation with burning water-brash and sour vomiting.	Merc sol	Acetic acid	Nux vomica	Pulsatilla	B	1	30/4/2026		Materia Medica
-118	Female: excessive menstruation and haemorrhage after labor.	Sabina	Secale	Acetic acid	Trillium	C	1	30/4/2026		Materia Medica
-119	Central theme of remedy Acetic acid:	Nervous system	Skin disease	Anaemia + dropsy + haemorrhage + debility	Liver pathology	C	1	30/4/2026		Materia Medica
-120	Marked cyanosis with circulatory collapse and low temperature.	Carbo veg	Acetanilidum	Veratrum album	Digitalis	B	1	30/4/2026		Materia Medica
-121	Drug causing destruction of RBCs leading to pallor.	China	Acetanilidum	Ferrum met	Phosphorus	B	1	30/4/2026		Materia Medica
-122	Heart: weak, irregular with blue mucous membranes and oedema.	Digitalis	Acetanilidum	Apis	Arsenicum album	B	1	30/4/2026		Materia Medica
-123	Key action: depresses heart, respiration and blood pressure.	Opium	Acetanilidum	Antimonium tart	Veratrum album	B	1	30/4/2026		Materia Medica
-124	Eye finding: pallor of optic disc with contracted field and mydriasis.	Belladonna	Acetanilidum	Physostigma	Gelsemium	B	1	30/4/2026		Materia Medica
-125	Closest comparison remedy:	Digitalis	Antipyrin	Carbo veg	Arsenicum album	B	1	30/4/2026		Materia Medica
-126	Sudden, acute onset of disease after exposure to dry cold wind.	Belladonna	Aconite	Bryonia	Gelsemium	B	1	30/4/2026		Materia Medica
-127	Mental state: intense fear of death, predicts exact time of death.	Arsenicum album	Aconite	Phosphorus	Stramonium	B	1	30/4/2026		Materia Medica
-128	Restlessness with constant tossing, cannot remain in one position.	Rhus tox	Aconite	Arsenicum album	Tarentula	B	1	30/4/2026		Materia Medica
-129	First stage of inflammation before localization (congestion stage).	Belladonna	Ferrum phos	Aconite	Bryonia	C	1	30/4/2026		Materia Medica
-130	Fever: dry hot skin + intense thirst for large quantities of cold water.	Arsenicum album	Aconite	Gelsemium	Pulsatilla	B	1	30/4/2026		Materia Medica
-131	Cause: complaints after checked perspiration.	Dulcamara	Aconite	Rhus tox	Nux vomica	B	1	30/4/2026		Materia Medica
-132	Child with high fever, hot dry skin, biting fists, restlessness (teething convulsions).	Chamomilla	Aconite	Belladonna	Cina	B	1	30/4/2026		Materia Medica
-133	Cough: dry, hoarse, worse from cold air exposure.	Spongia	Aconite	Hepar sulph	Causticum	B	1	30/4/2026		Materia Medica
-134	Modalities: worse evening/night, worse warm room, better open air.	Pulsatilla	Aconite	Sulphur	Bryonia	B	1	30/4/2026		Materia Medica
-135	Patient becomes pale on rising, fear to rise again due to faintness.	Gelsemium	Aconite	Conium	Opium	B	1	30/4/2026		Materia Medica
-136	Mental state with extreme anxiety even in trivial illness.	Arsenicum album	Aconite	Ignatia	Natrum mur	B	1	30/4/2026		Materia Medica
-137	Pain is intolerable, drives patient to frenzy with restlessness.	Chamomilla	Aconite	Coffea	Colocynth	B	1	30/4/2026		Materia Medica
-138	Indicated constitution: plethoric, young, full-blooded individuals.	Calcarea carb	Aconite	Sulphur	Lycopodium	B	1	30/4/2026		Materia Medica
-139	NOT indicated when: pathological changes/localization have occurred.	Aconite	Belladonna	Bryonia	Sulphur	A	1	30/4/2026		Materia Medica
-140	Convulsions with jerking of muscles, high fever, dry heat.	Cuprum met	Aconite	Cicuta	Stramonium	B	1	30/4/2026		Materia Medica
-141	Differentiation from Belladonna:	Sudden onset	Red face	Fear + anxiety	Congestion	C	1	30/4/2026		Materia Medica
-142	Differentiation from Arsenicum:	Restlessness	Fear of death	Thirst for small sips	Sudden onset	C	1	30/4/2026		Materia Medica
-143	Relationship: Aconite is acute of which remedy?	Calcarea carb	Sulphur	Lycopodium	Phosphorus	B	1	30/4/2026		Materia Medica
-144	Remedy is injurious in typhoid when no exciting cause present.	Aconite	Bryonia	Rhus tox	Gelsemium	A	1	30/4/2026		Materia Medica
-145	Central theme of remedy  Aconite :	Gradual weakness	Sudden shock + fear + acute inflammation	Chronic degeneration	Nervous depression	B	1	30/4/2026		Materia Medica
-146	Rheumatism affecting small joints especially wrist with swelling from slight exertion.	Ledum	Actaea spicata	Caulophyllum	Cimicifuga	B	1	30/4/2026		Materia Medica
-147	Wrist joint: swollen, red, extremely painful, worse slightest motion.	Bryonia	Actaea spicata	Rhus tox	Ledum	B	1	30/4/2026		Materia Medica
-148	Characteristic pain: tearing, tingling in small joints.	Colchicum	Actaea spicata	Ruta	Kalmia	B	1	30/4/2026		Materia Medica
-149	Rheumatic pains worse from touch and motion.	Bryonia	Actaea spicata	Rhus tox	Arnica	B	1	30/4/2026		Materia Medica
-150	Swelling of joints from slight fatigue or exertion.	Calcarea carb	Actaea spicata	Rhus tox	Sulphur	B	1	30/4/2026		Materia Medica
-151	Head symptom: pain from crown to between eyebrows with throbbing.	Belladonna	Actaea spicata	Gelsemium	Sanguinaria	B	1	30/4/2026		Materia Medica
-152	Vertigo with tearing headache better in open air.	Pulsatilla	Actaea spicata	Gelsemium	Cocculus	B	1	30/4/2026		Materia Medica
-153	Mental state: fearful, easily startled with confusion.	Aconite	Actaea spicata	Stramonium	Hyoscyamus	B	1	30/4/2026		Materia Medica
-154	Gastric symptom: crampy epigastric pain with vomiting and dyspnoea.	Colocynth	Actaea spicata	Nux vomica	Arsenicum album	B	1	30/4/2026		Materia Medica
-155	Sudden lassitude after eating or talking.	Phosphoric acid	Actaea spicata	China	Gelsemium	B	1	30/4/2026		Materia Medica
-156	Abdomen: spasmodic retraction with sticking pain in hypogastrium.	Colocynth	Actaea spicata	Dioscorea	Aloe	B	1	30/4/2026		Materia Medica
-157	Respiratory: short irregular breathing at night, worse lying.	Arsenicum album	Actaea spicata	Lachesis	Spongia	B	1	30/4/2026		Materia Medica
-158	Cardiovascular feature: pulsations felt all over body (esp. liver & kidney region).	Glonoinum	Actaea spicata	Aconite	Digitalis	B	1	30/4/2026		Materia Medica
-159	Pain in upper jaw radiating to temples through malar bones.	Spigelia	Actaea spicata	Belladonna	Merc sol	B	1	30/4/2026		Materia Medica
-160	Paralytic weakness in hands with rheumatic involvement.	Causticum	Actaea spicata	Rhus tox	Plumbum	B	1	30/4/2026		Materia Medica
-161	Key differentiation from Rhus tox:	Worse motion	Small joint involvement	Better motion	Worse rest	A	1	30/4/2026		Materia Medica
-162	Compare remedy for small joint rheumatism but better by motion (NOT Actaea).	Actaea spicata	Rhus tox	Ledum	Caulophyllum	B	1	30/4/2026		Materia Medica
-163	Central theme of remedy Actaea spicata:	Large joint gout	Small joint rheumatism with tearing pains	Neuralgia only	Skin eruptions	B	1	30/4/2026		Materia Medica
-164	Cardiac remedy indicated in fatty degeneration of heart after rheumatism or influenza.	Digitalis	Adonis vernalis	Crataegus	Strophanthus	B	1	30/4/2026		Materia Medica
-165	Weak heart with low vitality, slow weak pulse and dropsy.	Apis	Adonis vernalis	Arsenicum album	Digitalis	B	1	30/4/2026		Materia Medica
-166	Marked indication: cardiac dropsy with hydrothorax, ascites, anasarca.	Apis mellifica	Adonis vernalis	China	Helleborus	B	1	30/4/2026		Materia Medica
-167	Drug increases force of cardiac contraction with increased urinary secretion.	Digitalis	Adonis vernalis	Crataegus	Strophanthus	B	1	30/4/2026		Materia Medica
-168	Pulse: rapid, irregular with cardiac weakness.	Digitalis	Adonis vernalis	Cactus grandiflorus	Convallaria	B	1	30/4/2026		Materia Medica
-169	Cardiac pathology: mitral and aortic regurgitation with fatty heart.	Kalmia	Adonis vernalis	Digitalis	Crataegus	B	1	30/4/2026		Materia Medica
-170	Venous congestion with engorgement and dyspnoea (cardiac asthma).	Arsenicum album	Adonis vernalis	Quebracho	Digitalis	B	1	30/4/2026		Materia Medica
-171	Urine finding: scanty, albuminous with oily pellicle.	Apis	Adonis vernalis	Cantharis	Phosphorus	B	1	30/4/2026		Materia Medica
-172	Sensation: weight on chest with desire to take deep breath.	Phosphorus	Adonis vernalis	Digitalis	Spongia	B	1	30/4/2026		Materia Medica
-173	Vertigo on rising, turning head or lying down with cardiac weakness.	Gelsemium	Adonis vernalis	Conium	Digitalis	B	1	30/4/2026		Materia Medica
-174	Stomach: gnawing hunger with faint feeling in epigastrium.	Iodum	Adonis vernalis	Phosphorus	Sepia	B	1	30/4/2026		Materia Medica
-175	General modality: patient feels better in open air.	Pulsatilla	Adonis vernalis	Sulphur	Bryonia	B	1	30/4/2026		Materia Medica
-176	Relationship: substitute for Digitalis but non-cumulative action.	Crataegus	Adonis vernalis	Strophanthus	Convallaria	B	1	30/4/2026		Materia Medica
-177	Cardiac condition with fatty myocardium and irregular action.	Digitalis	Adonis vernalis	Cactus	Kalmia	B	1	30/4/2026		Materia Medica
-178	Dropsy due to cardiac failure with renal involvement.	Apis	Adonis vernalis	Helleborus	Arsenicum album	B	1	30/4/2026		Materia Medica
-179	Differentiation from Digitalis:	Slow pulse	Cardiac weakness	Non-cumulative effect	Weak heart	C	1	30/4/2026		Materia Medica
-180	Compare: cardiac tonic with more direct heart muscle nutrition (diff).	Crataegus	Adonis vernalis	Digitalis	Strophanthus	A	1	30/4/2026		Materia Medica
-181	Central theme of remedy Adonis vernalis:	Nervous spasms	Cardiac weakness + dropsy + diuresis	Liver disease	Skin eruptions	B	1	30/4/2026		Materia Medica
+id,question,option1,option2,option3,option4,correct,interval,next_date,last_result,subject
+1,Marked prostration with constant desire to lie down; gastric catarrh present. Choose remedy.,Abies canadensis,China,Gelsemium,Arsenicum album,A,7,05/04/2026,correct,Materia Medica
+2,Ravenous appetite but weak digestion; eats beyond capacity ? distention.,Abies canadensis,Iodum,Lycopodium,Nux vomica,A,7,05/04/2026,correct,Materia Medica
+3,Sensation as if �blood were ice-water� with chilliness�closest remedy?,Aconite,Abies canadensis,China,Ammon mur,A,7,05/04/2026,correct,Materia Medica
+4,Cold sensation between scapulae�most characteristic of which differential?,Abies canadensis,Ammon mur,China,Aconite,B,1,04/28/2026,wrong,Materia Medica
+5,Flatulence interfering with cardiac action causing palpitation.,Carbo veg,Abies canadensis,Lycopodium,Digitalis,B,1,04/28/2026,wrong,Materia Medica
+6,"Uterine displacement with soreness at fundus, better by pressure + debility.",Abies canadensis,Sepia,Lilium tigrinum,Murex,A,7,05/04/2026,correct,Materia Medica
+7,"Craving for coarse food (radish, turnip, pickles) with gastric disturbance.",Abies canadensis,Sulphur,Calcarea carb,Nux vomica,A,7,05/04/2026,correct,Materia Medica
+8,Peculiar sensation: right lung and liver feel small and hard.,Abies canadensis,Bryonia,Chelidonium,Phosphorus,A,7,05/04/2026,correct,Materia Medica
+9,Night sweats with debility but due to fluid loss (not gastric).,Abies canadensis,China,Arsenicum album,Phosphoric acid,B,1,04/28/2026,wrong,Materia Medica
+10,"Gnawing, empty, faint feeling at epigastrium with hunger.",Abies canadensis,Anacardium,Iodum,Sepia,A,7,05/04/2026,correct,Materia Medica
+11,"Patient chilly, clammy, weak, wants to lie down constantly; gastric catarrh.",Abies canadensis,Gelsemium,Pulsatilla,Arsenicum album,A,7,05/04/2026,correct,Materia Medica
+12,"Irritable, light-headed, �tipsy� feeling with gastric symptoms.",Abies canadensis,Nux vomica,Chamomilla,Cocculus,A,7,05/04/2026,correct,Materia Medica
+13,Feeling �womb is soft and feeble� with displacement and debility.,Abies canadensis,Sepia,Murex,Lilium tigrinum,A,7,05/04/2026,correct,Materia Medica
+14,Constipation with burning in rectum along with gastric symptoms.,Abies canadensis,Sulphur,Nux vomica,Aloe,A,7,05/04/2026,correct,Materia Medica
+15,Gleet with mucous membrane involvement and gastric disturbance.,Abies canadensis,Thuja,Medorrhinum,Pulsatilla,A,7,05/04/2026,correct,Materia Medica
+16,Theme: �Lump sensation in stomach� + after eating aggravation. Select remedy.,China,Abies nigra,Lycopodium,Nux vomica,B,1,04/28/2026,wrong,Materia Medica
+17,Theme: Gastric disorder in elderly + heart symptoms (functional).,Digitalis,Abies nigra,Crataegus,Kali carb,B,1,04/28/2026,wrong,Materia Medica
+18,Requirement: Pain always after eating + constriction above stomach.,Abies nigra,Nux vomica,Bryonia,Pulsatilla,A,7,05/04/2026,correct,Materia Medica
+19,Theme: Knotted feeling at epigastrium + distress after meals.,Ignatia,Abies nigra,Anacardium,Colocynth,B,1,04/28/2026,wrong,Materia Medica
+20,Requirement: Loss of appetite morning but hunger later (noon/night).,Lycopodium,Sulphur,Abies nigra,Psorinum,C,1,04/28/2026,wrong,Materia Medica
+21,Theme: Chest compression + cannot expand lungs fully.,Phosphorus,Abies nigra,Antimonium tart,Kali carb,B,1,04/28/2026,wrong,Materia Medica
+22,Requirement: Waterbrash after cough + gastric pathology.,Abies nigra,Bryonia,Drosera,Spongia,A,7,05/04/2026,correct,Materia Medica
+23,Theme: Dyspnea worse lying down + irregular heart action.,Digitalis,Abies nigra,Lachesis,Arsenicum album,B,1,04/28/2026,wrong,Materia Medica
+24,Requirement: Wakeful at night + hunger + bad dreams.,Psorinum,Sulphur,Abies nigra,Cina,C,1,04/28/2026,wrong,Materia Medica
+25,Theme: Offensive breath + eructations + gastric catarrh.,Nux vomica,Carbo veg,Abies nigra,Pulsatilla,C,1,04/28/2026,wrong,Materia Medica
+26,Requirement: Aggravation after tea and tobacco.,Abies nigra,Nux vomica,Sulphur,Lycopodium,A,7,05/04/2026,correct,Materia Medica
+27,Theme: Something lodged in chest ? needs to cough out.,Kali carb,Abies nigra,Phosphorus,Drosera,B,1,04/28/2026,wrong,Materia Medica
+28,Requirement: Chronic intermittent fever with gastric pain.,China,Eupatorium perf,Abies nigra,Arsenicum album,C,1,04/28/2026,wrong,Materia Medica
+29,Theme confusion: Lump sensation but better from eructation (NOT Abies).,Abies nigra,China,Lycopodium,Nux vomica,B,1,04/28/2026,wrong,Materia Medica
+30,Core modality of remedy ABIES NIGRA,Better fasting,Worse after eating,Better motion,Worse morning,B,1,04/28/2026,wrong,Materia Medica
+31,Rapidly spreading purulent conjunctivitis extending to face and neck.,Euphrasia,Abrus precatorius,Belladonna,Merc sol,B,1,04/28/2026,wrong,Materia Medica
+32,Granular lids / ophthalmia with intense suppuration and destructive tendency.,Pulsatilla,Sulphur,Abrus precatorius,Calcarea carb,C,1,04/28/2026,wrong,Materia Medica
+33,Remedy used to induce artificial purulent inflammation in trachoma.,Euphrasia,Jequiritol,Argentum nit,Nat mur,B,1,04/28/2026,wrong,Materia Medica
+34,Keratitis with marked purulent discharge and rapid tissue involvement.,Merc cor,Abrus precatorius,Nitric acid,Kali bich,B,1,04/28/2026,wrong,Materia Medica
+35,Eye inflammation spreading beyond local tissue ? face and neck.,Apis,Abrus precatorius,Rhus tox,Belladonna,B,1,04/28/2026,wrong,Materia Medica
+36,Identify the NOT characteristic feature of Abrus.,Purulent ophthalmia,Granular lids,Acrid tears with bland coryza,Spread to face,C,1,04/28/2026,wrong,Materia Medica
+37,Pathological sphere of Abrus precatorius is mainly:,Skin,Eye (purulent),Nervous system,Liver,B,1,04/28/2026,wrong,Materia Medica
+38,Epithelioma and lupus with ulcerative tendency involving mucosa.,Arsenicum album,Abrus precatorius,Silicea,Thuja,B,1,04/28/2026,wrong,Materia Medica
+39,Which differential shows acrid lachrymation with non-purulent picture?,Abrus precatorius,Euphrasia,Merc sol,Hepar sulph,B,1,04/28/2026,wrong,Materia Medica
+40,Marasmus with emaciation of lower extremities only despite good appetite.,Iodum,Abrotanum,Natrum mur,Tuberculinum,B,1,04/28/2026,wrong,Materia Medica
+41,Rheumatism following suppressed diarrhoea is a keynote of:,Bryonia,Rhus tox,Abrotanum,Pulsatilla,C,1,04/28/2026,wrong,Materia Medica
+42,Metastasis of complaints (bowel ? joints) strongly indicates:,Sulphur,Abrotanum,Lycopodium,Calcarea carb,B,1,04/28/2026,wrong,Materia Medica
+43,Appetite good but progressive emaciation with undigested stool (lienteric).,Iodum,Abrotanum,Cina,Sanicula,B,1,04/28/2026,wrong,Materia Medica
+44,Haemorrhoids worse when rheumatism improves (alternating states).,Nux vomica,Aloe,Abrotanum,Sulphur,C,1,04/28/2026,wrong,Materia Medica
+45,Child cannot hold head up due to extreme weakness in marasmus.,Aethusa,Abrotanum,Calcarea phos,Tuberculinum,B,1,04/28/2026,wrong,Materia Medica
+46,Sensation as if bowels are sinking down with abdominal weakness.,Sepia,Abrotanum,Aloe,Podophyllum,B,1,04/28/2026,wrong,Materia Medica
+47,"Face: old, wrinkled, pale with blue rings around eyes in a child.",Opium,Abrotanum,Cina,Calcarea carb,B,1,04/28/2026,wrong,Materia Medica
+48,Alternation of diarrhoea and constipation with worms (ascarides).,Cina,Abrotanum,Teucrium,Sulphur,B,1,04/28/2026,wrong,Materia Medica
+49,"Gnawing hunger with whining child, yet progressive wasting.",Cina,Abrotanum,Iodum,Chamomilla,B,1,04/28/2026,wrong,Materia Medica
+50,Rheumatism with pricking sensation in joints before swelling appears.,Bryonia,Abrotanum,Rhus tox,Ledum,B,1,04/28/2026,wrong,Materia Medica
+51,Skin eruptions suppressed ? internal complaints worsen.,Sulphur,Abrotanum,Psorinum,Graphites,B,1,04/28/2026,wrong,Materia Medica
+52,Great weakness after influenza (compare).,Kali phos,Abrotanum,Gelsemium,China,A,7,05/04/2026,correct,Materia Medica
+53,Modalities of Abrotanum:,Better cold air,Worse motion,Worse cold air & suppression,Better rest,C,1,04/28/2026,wrong,Materia Medica
+54,"Child is irritable, cross, depressed, even cruel tendency.",Chamomilla,Cina,Abrotanum,Stramonium,C,1,04/28/2026,wrong,Materia Medica
+55,"Marasmus with flabby, loose hanging skin folds.",Natrum mur,Abrotanum,Sanicula,Calcarea carb,B,1,04/28/2026,wrong,Materia Medica
+56,Pain extending along spermatic cord with lumbar pain.,Clematis,Abrotanum,Berberis,Lycopodium,B,1,04/28/2026,wrong,Materia Medica
+57,Dry cough appearing after suppression of diarrhoea.,Bryonia,Abrotanum,Pulsatilla,Drosera,B,1,04/28/2026,wrong,Materia Medica
+58,"Hydrocele and epistaxis in weak, marasmic boys.",Calcarea carb,Abrotanum,Sulphur,Phosphorus,B,1,04/28/2026,wrong,Materia Medica
+59,Key differentiation from Iodum:,Ravenous hunger,Emaciation,Metastatic tendency,Heat aggravation,C,1,04/28/2026,wrong,Materia Medica
+60,Remedy producing a perfect picture of epileptiform seizures with nervous tremors preceding attack.,Cicuta,Absinthium,Hydrocyanic acid,Cuprum met,B,1,04/28/2026,wrong,Materia Medica
+61,Sudden giddiness with tendency to fall backward.,Gelsemium,Absinthium,Conium,Cocculus,B,1,04/28/2026,wrong,Materia Medica
+62,Delirium with frightful hallucinations and loss of consciousness.,Belladonna,Stramonium,Absinthium,Hyoscyamus,C,1,04/28/2026,wrong,Materia Medica
+63,"Child with nervous excitement, sleeplessness and spasms.",Cina,Absinthium,Chamomilla,Cuprum met,B,1,04/28/2026,wrong,Materia Medica
+64,Kleptomania with loss of memory (forgets recent events).,Anacardium,Absinthium,Hyoscyamus,Stramonium,B,1,04/28/2026,wrong,Materia Medica
+65,Face becomes blue with spasmodic twitching during convulsions.,Cicuta,Absinthium,Cuprum met,Hydrocy acid,B,1,04/28/2026,wrong,Materia Medica
+66,Characteristic mouth symptom: bites tongue during convulsions.,Cuprum met,Absinthium,Cicuta,Belladonna,B,1,04/28/2026,wrong,Materia Medica
+67,"Sensation as if tongue is swollen and too large, protruding.",Lachesis,Absinthium,Merc sol,Belladonna,B,1,04/28/2026,wrong,Materia Medica
+68,Nervous system remedy covering chorea with tremors and excitation.,Agaricus,Absinthium,Zincum met,Tarentula,B,1,04/28/2026,wrong,Materia Medica
+69,Poisoning condition where Absinthium is indicated.,Snake bite,Mushroom poisoning,Arsenic poisoning,Opium poisoning,B,1,04/28/2026,wrong,Materia Medica
+70,"Patient wants nothing to do with anybody, brutal behavior.",Hyoscyamus,Absinthium,Stramonium,Anacardium,B,1,04/28/2026,wrong,Materia Medica
+71,Sensation of weight on chest with irregular heart action audible in back.,Digitalis,Absinthium,Crataegus,Kali carb,B,1,04/28/2026,wrong,Materia Medica
+72,Urine: deep yellow with strong odor and frequent desire.,Kali phos,Absinthium,Cantharis,Nitric acid,B,1,04/28/2026,wrong,Materia Medica
+73,Head symptom: pupils dilated unequally with confusion.,Belladonna,Absinthium,Opium,Gelsemium,B,1,04/28/2026,wrong,Materia Medica
+74,Throat symptom: as if a lump with scalded sensation.,Ignatia,Absinthium,Lachesis,Merc sol,B,1,04/28/2026,wrong,Materia Medica
+75,Nervous irritation with infantile spasms and sleeplessness.,Cuprum met,Absinthium,Cina,Chamomilla,B,1,04/28/2026,wrong,Materia Medica
+76,Paralytic symptoms with tremors and nervous excitement.,Gelsemium,Absinthium,Conium,Plumbum,B,1,04/28/2026,wrong,Materia Medica
+77,Key differentiation from Cicuta:,Violent convulsions,Backward bending,Hallucinations + delirium,Opisthotonos,C,1,04/28/2026,wrong,Materia Medica
+78,"Compared with Hydrocyanic acid, Absinthium shows:",Sudden collapse,Slow pulse,Nervous excitement before seizures,Instant death tendency,C,1,04/28/2026,wrong,Materia Medica
+79,Central theme of remedy Absinthium:,Gastro disorder,Skin eruption,Nervous excitement ? convulsions ? delirium,Liver pathology,C,1,04/28/2026,wrong,Materia Medica
+80,Incipient phthisis with dry hard cough followed by haemoptysis without fever.,Phosphorus,Acalypha indica,Millefolium,Tuberculinum,B,1,04/28/2026,wrong,Materia Medica
+81,"Haemorrhage pattern: bright red in morning, dark & clotted later.",Phosphorus,Acalypha indica,Hamamelis,Ipecac,B,1,04/28/2026,wrong,Materia Medica
+82,Marked modality: all haemorrhages worse in morning.,Millefolium,Acalypha indica,Phosphorus,Hamamelis,B,1,04/28/2026,wrong,Materia Medica
+83,Patient very weak in morning but gains strength during day.,Sulphur,Acalypha indica,China,Psorinum,B,1,04/28/2026,wrong,Materia Medica
+84,"Cough: dry, hard, racking ? followed by haemoptysis.",Bryonia,Acalypha indica,Drosera,Phosphorus,B,1,04/28/2026,wrong,Materia Medica
+85,Rectal haemorrhage with morning aggravation + tenesmus.,Aloe,Acalypha indica,Nux vomica,Merc sol,B,1,04/28/2026,wrong,Materia Medica
+86,"Diarrhoea with loud flatus, spluttering expulsion and bearing down.",Podophyllum,Acalypha indica,Aloe,Sulphur,B,1,04/28/2026,wrong,Materia Medica
+87,"Burning sensation in pharynx, oesophagus, stomach with haemorrhagic tendency.",Arsenicum album,Acalypha indica,Phosphorus,Kali bich,B,1,04/28/2026,wrong,Materia Medica
+88,Progressive emaciation with pulmonary haemorrhage but no marked fever.,Tuberculinum,Acalypha indica,Phosphorus,Calcarea carb,B,1,04/28/2026,wrong,Materia Medica
+89,Pulse: soft and compressible with bleeding tendency.,Phosphorus,Acalypha indica,China,Hamamelis,B,1,04/28/2026,wrong,Materia Medica
+90,Compare: haemoptysis with bright red blood but more profuse bleeding (NOT Acalypha).,Acalypha indica,Millefolium,Hamamelis,Ipecac,B,1,04/28/2026,wrong,Materia Medica
+91,Burning in intestines with griping pain and distension.,Arsenicum album,Acalypha indica,Colocynth,Sulphur,B,1,04/28/2026,wrong,Materia Medica
+92,Skin: jaundice with itching and furuncle-like eruptions.,Chelidonium,Acalypha indica,Sulphur,Graphites,B,1,04/28/2026,wrong,Materia Medica
+93,Key differentiation from Phosphorus:,Bright red blood,Lung affinity,Morning aggravation of bleeding,Thirst for cold drinks,C,1,04/28/2026,wrong,Materia Medica
+94,Central theme of remedy Acalypha indica:,Nervous spasms,Haemorrhage + lung + morning agg.,Skin eruptions,Liver enlargement,B,1,04/28/2026,wrong,Materia Medica
+95,"Profound anaemia with dropsy, extreme debility and frequent fainting.",China,Acetic acid,Ferrum met,Arsenicum album,B,1,04/28/2026,wrong,Materia Medica
+96,"Patient: pale, waxy, lean with lax, flabby muscles.",Calcarea carb,Ferrum met,Acetic acid,Phosphorus,C,1,04/28/2026,wrong,Materia Medica
+97,"Haemorrhage occurring from multiple mucous outlets (nose, lungs, uterus, bowels).",Millefolium,Acetic acid,Hamamelis,Phosphorus,B,1,04/28/2026,wrong,Materia Medica
+98,Intense burning thirst but cold drinks aggravate gastric symptoms.,Arsenicum album,Phosphorus,Acetic acid,Natrum mur,C,1,04/28/2026,wrong,Materia Medica
+99,Vomiting after every kind of food with sour eructations.,Ipecac,Nux vomica,Acetic acid,Pulsatilla,C,1,04/28/2026,wrong,Materia Medica
+100,Sensation as if abdomen is sinking in causing dyspnoea.,Sepia,Aloe,Acetic acid,Podophyllum,C,1,04/28/2026,wrong,Materia Medica
+101,Large quantities of pale urine with diabetes and marked debility.,Phosphoric acid,Uranium nit,Acetic acid,Syzygium jambolanum,C,1,04/28/2026,wrong,Materia Medica
+102,"Nursing mother: milk bluish, thin, sour with anaemia.",Calcarea carb,Pulsatilla,Acetic acid,Phytolacca,C,1,04/28/2026,wrong,Materia Medica
+103,Croup with hissing respiration and cough during inspiration.,Spongia,Hepar sulph,Acetic acid,Bromium,C,1,04/28/2026,wrong,Materia Medica
+104,Cannot lie on back; patient feels better lying on abdomen.,Arsenicum album,Pulsatilla,Acetic acid,Ammon carb,C,1,04/28/2026,wrong,Materia Medica
+105,"Skin: pale, waxy, oedematous with profuse cold sweat.",Apis mellifica,Acetic acid,Arsenicum album,China,B,1,04/28/2026,wrong,Materia Medica
+106,"Diarrhoea: copious, exhausting with great thirst and weakness.",China,Podophyllum,Acetic acid,Arsenicum album,C,1,04/28/2026,wrong,Materia Medica
+107,Burning gastric pain followed by cold skin and cold sweat on forehead.,Veratrum album,Acetic acid,Arsenicum album,Phosphorus,B,1,04/28/2026,wrong,Materia Medica
+108,Hectic fever with red spot on left cheek and drenching night sweats.,Phosphorus,Tuberculinum,Acetic acid,China,C,1,04/28/2026,wrong,Materia Medica
+109,Liquefaction of albuminous and fibrinous deposits is a key action.,Kali iod,Acetic acid,Silicea,Calcarea fluor,B,1,04/28/2026,wrong,Materia Medica
+110,Epithelioma and cancer with marked cachexia and debility.,Conium,Arsenicum album,Acetic acid,Phytolacca,C,1,04/28/2026,wrong,Materia Medica
+111,"Great prostration after surgical shock, injuries or anaesthesia.",Arnica,Carbo veg,Acetic acid,China,C,1,04/28/2026,wrong,Materia Medica
+112,Diarrhoea worse in morning with watery stools.,Sulphur,Acetic acid,Podophyllum,Aloe,B,1,04/28/2026,wrong,Materia Medica
+113,NOT characteristic of Acetic acid:,Profuse urination,Intense thirst,No thirst during fever,Thirstless in general,D,1,04/28/2026,wrong,Materia Medica
+114,"Compare: bleeding more passive, venous, dark (NOT Acetic acid).",Acetic acid,Hamamelis,Millefolium,Phosphorus,B,1,04/28/2026,wrong,Materia Medica
+115,Key differentiation from Phosphorus:,Bright red bleeding,Lung involvement,Cold drinks aggravate,Thirst for cold drinks,C,1,04/28/2026,wrong,Materia Medica
+116,Remedy indicated in dropsy with great thirst and debility.,Apis mellifica,Acetic acid,Arsenicum album,Digitalis,B,1,04/28/2026,wrong,Materia Medica
+117,Salivation with burning water-brash and sour vomiting.,Merc sol,Acetic acid,Nux vomica,Pulsatilla,B,1,04/28/2026,wrong,Materia Medica
+118,Female: excessive menstruation and haemorrhage after labor.,Sabina,Secale,Acetic acid,Trillium,C,1,04/28/2026,wrong,Materia Medica
+119,Central theme of remedy Acetic acid:,Nervous system,Skin disease,Anaemia + dropsy + haemorrhage + debility,Liver pathology,C,1,04/28/2026,wrong,Materia Medica
+120,Marked cyanosis with circulatory collapse and low temperature.,Carbo veg,Acetanilidum,Veratrum album,Digitalis,B,1,04/28/2026,wrong,Materia Medica
+121,Drug causing destruction of RBCs leading to pallor.,China,Acetanilidum,Ferrum met,Phosphorus,B,1,04/28/2026,wrong,Materia Medica
+122,"Heart: weak, irregular with blue mucous membranes and oedema.",Digitalis,Acetanilidum,Apis,Arsenicum album,B,1,04/28/2026,wrong,Materia Medica
+123,"Key action: depresses heart, respiration and blood pressure.",Opium,Acetanilidum,Antimonium tart,Veratrum album,B,1,04/28/2026,wrong,Materia Medica
+124,Eye finding: pallor of optic disc with contracted field and mydriasis.,Belladonna,Acetanilidum,Physostigma,Gelsemium,B,1,04/28/2026,wrong,Materia Medica
+125,Closest comparison remedy:,Digitalis,Antipyrin,Carbo veg,Arsenicum album,B,1,04/28/2026,wrong,Materia Medica
+126,"Sudden, acute onset of disease after exposure to dry cold wind.",Belladonna,Aconite,Bryonia,Gelsemium,B,1,04/28/2026,wrong,Materia Medica
+127,"Mental state: intense fear of death, predicts exact time of death.",Arsenicum album,Aconite,Phosphorus,Stramonium,B,1,04/28/2026,wrong,Materia Medica
+128,"Restlessness with constant tossing, cannot remain in one position.",Rhus tox,Aconite,Arsenicum album,Tarentula,B,1,04/28/2026,wrong,Materia Medica
+129,First stage of inflammation before localization (congestion stage).,Belladonna,Ferrum phos,Aconite,Bryonia,C,1,04/28/2026,wrong,Materia Medica
+130,Fever: dry hot skin + intense thirst for large quantities of cold water.,Arsenicum album,Aconite,Gelsemium,Pulsatilla,B,1,04/28/2026,wrong,Materia Medica
+131,Cause: complaints after checked perspiration.,Dulcamara,Aconite,Rhus tox,Nux vomica,B,1,04/28/2026,wrong,Materia Medica
+132,"Child with high fever, hot dry skin, biting fists, restlessness (teething convulsions).",Chamomilla,Aconite,Belladonna,Cina,B,1,04/28/2026,wrong,Materia Medica
+133,"Cough: dry, hoarse, worse from cold air exposure.",Spongia,Aconite,Hepar sulph,Causticum,B,1,04/28/2026,wrong,Materia Medica
+134,"Modalities: worse evening/night, worse warm room, better open air.",Pulsatilla,Aconite,Sulphur,Bryonia,B,1,04/28/2026,wrong,Materia Medica
+135,"Patient becomes pale on rising, fear to rise again due to faintness.",Gelsemium,Aconite,Conium,Opium,B,1,04/28/2026,wrong,Materia Medica
+136,Mental state with extreme anxiety even in trivial illness.,Arsenicum album,Aconite,Ignatia,Natrum mur,B,1,04/28/2026,wrong,Materia Medica
+137,"Pain is intolerable, drives patient to frenzy with restlessness.",Chamomilla,Aconite,Coffea,Colocynth,B,1,04/28/2026,wrong,Materia Medica
+138,"Indicated constitution: plethoric, young, full-blooded individuals.",Calcarea carb,Aconite,Sulphur,Lycopodium,B,1,04/28/2026,wrong,Materia Medica
+139,NOT indicated when: pathological changes/localization have occurred.,Aconite,Belladonna,Bryonia,Sulphur,A,7,05/04/2026,correct,Materia Medica
+140,"Convulsions with jerking of muscles, high fever, dry heat.",Cuprum met,Aconite,Cicuta,Stramonium,B,1,04/28/2026,wrong,Materia Medica
+141,Differentiation from Belladonna:,Sudden onset,Red face,Fear + anxiety,Congestion,C,1,04/28/2026,wrong,Materia Medica
+142,Differentiation from Arsenicum:,Restlessness,Fear of death,Thirst for small sips,Sudden onset,C,1,04/28/2026,wrong,Materia Medica
+143,Relationship: Aconite is acute of which remedy?,Calcarea carb,Sulphur,Lycopodium,Phosphorus,B,1,04/28/2026,wrong,Materia Medica
+144,Remedy is injurious in typhoid when no exciting cause present.,Aconite,Bryonia,Rhus tox,Gelsemium,A,7,05/04/2026,correct,Materia Medica
+145,Central theme of remedy  Aconite :,Gradual weakness,Sudden shock + fear + acute inflammation,Chronic degeneration,Nervous depression,B,1,04/28/2026,wrong,Materia Medica
+146,Rheumatism affecting small joints especially wrist with swelling from slight exertion.,Ledum,Actaea spicata,Caulophyllum,Cimicifuga,B,1,04/28/2026,wrong,Materia Medica
+147,"Wrist joint: swollen, red, extremely painful, worse slightest motion.",Bryonia,Actaea spicata,Rhus tox,Ledum,B,1,04/28/2026,wrong,Materia Medica
+148,"Characteristic pain: tearing, tingling in small joints.",Colchicum,Actaea spicata,Ruta,Kalmia,B,1,04/28/2026,wrong,Materia Medica
+149,Rheumatic pains worse from touch and motion.,Bryonia,Actaea spicata,Rhus tox,Arnica,B,1,04/28/2026,wrong,Materia Medica
+150,Swelling of joints from slight fatigue or exertion.,Calcarea carb,Actaea spicata,Rhus tox,Sulphur,B,1,04/28/2026,wrong,Materia Medica
+151,Head symptom: pain from crown to between eyebrows with throbbing.,Belladonna,Actaea spicata,Gelsemium,Sanguinaria,B,1,04/28/2026,wrong,Materia Medica
+152,Vertigo with tearing headache better in open air.,Pulsatilla,Actaea spicata,Gelsemium,Cocculus,B,1,04/28/2026,wrong,Materia Medica
+153,"Mental state: fearful, easily startled with confusion.",Aconite,Actaea spicata,Stramonium,Hyoscyamus,B,1,04/28/2026,wrong,Materia Medica
+154,Gastric symptom: crampy epigastric pain with vomiting and dyspnoea.,Colocynth,Actaea spicata,Nux vomica,Arsenicum album,B,1,04/28/2026,wrong,Materia Medica
+155,Sudden lassitude after eating or talking.,Phosphoric acid,Actaea spicata,China,Gelsemium,B,1,04/28/2026,wrong,Materia Medica
+156,Abdomen: spasmodic retraction with sticking pain in hypogastrium.,Colocynth,Actaea spicata,Dioscorea,Aloe,B,1,04/28/2026,wrong,Materia Medica
+157,"Respiratory: short irregular breathing at night, worse lying.",Arsenicum album,Actaea spicata,Lachesis,Spongia,B,1,04/28/2026,wrong,Materia Medica
+158,Cardiovascular feature: pulsations felt all over body (esp. liver & kidney region).,Glonoinum,Actaea spicata,Aconite,Digitalis,B,1,04/28/2026,wrong,Materia Medica
+159,Pain in upper jaw radiating to temples through malar bones.,Spigelia,Actaea spicata,Belladonna,Merc sol,B,1,04/28/2026,wrong,Materia Medica
+160,Paralytic weakness in hands with rheumatic involvement.,Causticum,Actaea spicata,Rhus tox,Plumbum,B,1,04/28/2026,wrong,Materia Medica
+161,Key differentiation from Rhus tox:,Worse motion,Small joint involvement,Better motion,Worse rest,A,7,05/04/2026,correct,Materia Medica
+162,Compare remedy for small joint rheumatism but better by motion (NOT Actaea).,Actaea spicata,Rhus tox,Ledum,Caulophyllum,B,1,04/28/2026,wrong,Materia Medica
+163,Central theme of remedy Actaea spicata:,Large joint gout,Small joint rheumatism with tearing pains,Neuralgia only,Skin eruptions,B,1,04/28/2026,wrong,Materia Medica
+164,Cardiac remedy indicated in fatty degeneration of heart after rheumatism or influenza.,Digitalis,Adonis vernalis,Crataegus,Strophanthus,B,1,04/28/2026,wrong,Materia Medica
+165,"Weak heart with low vitality, slow weak pulse and dropsy.",Apis,Adonis vernalis,Arsenicum album,Digitalis,B,1,04/28/2026,wrong,Materia Medica
+166,"Marked indication: cardiac dropsy with hydrothorax, ascites, anasarca.",Apis mellifica,Adonis vernalis,China,Helleborus,B,1,04/28/2026,wrong,Materia Medica
+167,Drug increases force of cardiac contraction with increased urinary secretion.,Digitalis,Adonis vernalis,Crataegus,Strophanthus,B,1,04/28/2026,wrong,Materia Medica
+168,"Pulse: rapid, irregular with cardiac weakness.",Digitalis,Adonis vernalis,Cactus grandiflorus,Convallaria,B,1,04/28/2026,wrong,Materia Medica
+169,Cardiac pathology: mitral and aortic regurgitation with fatty heart.,Kalmia,Adonis vernalis,Digitalis,Crataegus,B,1,04/28/2026,wrong,Materia Medica
+170,Venous congestion with engorgement and dyspnoea (cardiac asthma).,Arsenicum album,Adonis vernalis,Quebracho,Digitalis,B,1,04/28/2026,wrong,Materia Medica
+171,"Urine finding: scanty, albuminous with oily pellicle.",Apis,Adonis vernalis,Cantharis,Phosphorus,B,1,04/28/2026,wrong,Materia Medica
+172,Sensation: weight on chest with desire to take deep breath.,Phosphorus,Adonis vernalis,Digitalis,Spongia,B,1,04/28/2026,wrong,Materia Medica
+173,"Vertigo on rising, turning head or lying down with cardiac weakness.",Gelsemium,Adonis vernalis,Conium,Digitalis,B,1,04/28/2026,wrong,Materia Medica
+174,Stomach: gnawing hunger with faint feeling in epigastrium.,Iodum,Adonis vernalis,Phosphorus,Sepia,B,1,04/28/2026,wrong,Materia Medica
+175,General modality: patient feels better in open air.,Pulsatilla,Adonis vernalis,Sulphur,Bryonia,B,1,04/28/2026,wrong,Materia Medica
+176,Relationship: substitute for Digitalis but non-cumulative action.,Crataegus,Adonis vernalis,Strophanthus,Convallaria,B,1,04/28/2026,wrong,Materia Medica
+177,Cardiac condition with fatty myocardium and irregular action.,Digitalis,Adonis vernalis,Cactus,Kalmia,B,1,04/28/2026,wrong,Materia Medica
+178,Dropsy due to cardiac failure with renal involvement.,Apis,Adonis vernalis,Helleborus,Arsenicum album,B,1,04/28/2026,wrong,Materia Medica
+179,Differentiation from Digitalis:,Slow pulse,Cardiac weakness,Non-cumulative effect,Weak heart,C,1,04/28/2026,wrong,Materia Medica
+180,Compare: cardiac tonic with more direct heart muscle nutrition (diff).,Crataegus,Adonis vernalis,Digitalis,Strophanthus,A,7,05/04/2026,correct,Materia Medica
+181,Central theme of remedy Adonis vernalis:,Nervous spasms,Cardiac weakness + dropsy + diuresis,Liver disease,Skin eruptions,B,1,04/28/2026,wrong,Materia Medica
