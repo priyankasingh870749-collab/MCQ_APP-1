@@ -99,13 +99,15 @@ def register_routes(app):
         today = str(date.today())
         ids, saved_index = get_today_set(today, DAILY_FILE)
 
+        # ✅ RESUME ONLY if unfinished
         if ids and saved_index < len(ids):
             session["index"] = saved_index
+
         else:
+            # 🔥 ALWAYS generate fresh set after completion
             questions = load_questions(FILE)
 
-            # ✅ prevent same-day repeat
-            used_ids = set(session.get("today_ids", []))
+            used_ids = set()  # reset for new set
 
             due = get_due(questions, used_ids)
             ids = [q["id"] for q in due]
@@ -139,7 +141,7 @@ def register_routes(app):
         questions = load_questions(FILE)
         id_map = {q["id"]: q for q in questions}
 
-        q = id_map.get(ids[idx]) if idx < len(ids) else None
+        q = id_map.get(ids[idx])
 
         if not q:
             session["index"] = idx + 1
@@ -182,7 +184,7 @@ def register_routes(app):
         questions = load_questions(FILE)
         id_map = {q["id"]: q for q in questions}
 
-        q = id_map.get(ids[idx]) if idx < len(ids) else None
+        q = id_map.get(ids[idx])
 
         if not q:
             session["index"] = idx + 1
