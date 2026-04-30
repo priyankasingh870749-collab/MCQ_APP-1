@@ -3,19 +3,47 @@ from datetime import date, timedelta
 import csv
 import io
 import time
+import os
+import shutil
 
 from server.loader import load_questions
 from server.saver import save_questions
 from server.scheduler import get_due, update_interval
 
-FILE = "materia_medica.csv"
-DAILY_FILE = "daily_sets.csv"
+
+# ================= SUBJECT FILE MAP =================
+SUBJECT_FILES = {
+    "materia": "materia_medica.csv",
+    "repertory": "repertory.csv",
+    "organon": "organon.csv"
+}
+
+DATA_PATH = "/data"
+
+# ensure data folder exists
+if not os.path.exists(DATA_PATH):
+    os.makedirs(DATA_PATH)
+
+
+def get_file_path(filename):
+    return os.path.join(DATA_PATH, filename)
+
+
+def ensure_file(filename):
+    src = filename
+    dst = get_file_path(filename)
+
+    if not os.path.exists(dst):
+        if os.path.exists(src):
+            shutil.copy(src, dst)
+
+    return dst
 
 
 # ================= DAILY SET =================
-def get_today_set(today):
+def get_today_set(today, daily_file):
     try:
-        with io.open(DAILY_FILE, "r", encoding="utf-8") as f:
+        with io.open(daily_file, "r", encoding="utf-8") as f:
             reader = csv.reader(f)
             for row in reader:
                 if row and row[0] == today:
@@ -27,10 +55,10 @@ def get_today_set(today):
     return [], 0
 
 
-def save_today_set(today, ids, index):
+def save_today_set(today, ids, index, daily_file):
     rows = []
     try:
-        with io.open(DAILY_FILE, "r", encoding="utf-8") as f:
+        with io.open(daily_file, "r", encoding="utf-8") as f:
             rows = list(csv.reader(f))
     except:
         pass
@@ -45,7 +73,7 @@ def save_today_set(today, ids, index):
     if not updated:
         rows.append([today, ",".join(ids), str(index)])
 
-    with io.open(DAILY_FILE, "w", encoding="utf-8", newline='') as f:
+    with io.open(daily_file, "w", encoding="utf-8", newline='') as f:
         writer = csv.writer(f)
         writer.writerows(rows)
 
@@ -62,10 +90,17 @@ def register_routes(app):
     def start():
         session["results"] = []
 
-        today = str(date.today())
-        ids, saved_index = get_today_set(today)
+        subject = request.form.get("subject")
+        session["subject"] = subject
 
-        # Resume OR create new set
+        filename = SUBJECT_FILES.get(subject, "materia_medica.csv")
+        FILE = ensure_file(filename)
+
+        DAILY_FILE = get_file_path("daily_sets.csv")
+
+        today = str(date.today())
+        ids, saved_index = get_today_set(today, DAILY_FILE)
+
         if ids and saved_index < len(ids):
             session["index"] = saved_index
         else:
@@ -77,39 +112,40 @@ def register_routes(app):
 
             print("NEW SET LOAD TIME:", time.time() - start_time)
 
-            save_today_set(today, ids, 0)
+            save_today_set(today, ids, 0, DAILY_FILE)
             session["index"] = 0
 
         session["today_ids"] = ids
 
         return render_template(
             "summary.html",
-            subject="Materia Medica",
+            subject=subject,
             total=len(ids)
         )
 
 
     @app.route("/mcq")
     def mcq():
+        subject = session.get("subject", "materia")
+        filename = SUBJECT_FILES.get(subject, "materia_medica.csv")
+        FILE = ensure_file(filename)
+
+        DAILY_FILE = get_file_path("daily_sets.csv")
+
         ids = session.get("today_ids", [])
         idx = session.get("index", 0)
 
-        # ✅ SAFE CHECK
         if idx >= len(ids):
             return redirect("/result")
-
-        start_time = time.time()
 
         questions = load_questions(FILE)
         id_map = {q["id"]: q for q in questions}
 
         q = id_map.get(ids[idx]) if idx < len(ids) else None
 
-        print("MCQ LOAD TIME:", time.time() - start_time)
-
         if not q:
             session["index"] = idx + 1
-            save_today_set(str(date.today()), ids, session["index"])
+            save_today_set(str(date.today()), ids, session["index"], DAILY_FILE)
             return redirect("/mcq")
 
         return render_template(
@@ -122,28 +158,29 @@ def register_routes(app):
 
     @app.route("/answer", methods=["POST"])
     def answer():
+        subject = session.get("subject", "materia")
+        filename = SUBJECT_FILES.get(subject, "materia_medica.csv")
+        FILE = ensure_file(filename)
+
+        DAILY_FILE = get_file_path("daily_sets.csv")
+
         selected = int(request.form["answer"])
         options = ["A", "B", "C", "D"]
 
         ids = session.get("today_ids", [])
         idx = session.get("index", 0)
 
-        # ✅ VERY IMPORTANT FIX
         if idx >= len(ids):
             return redirect("/result")
-
-        start_time = time.time()
 
         questions = load_questions(FILE)
         id_map = {q["id"]: q for q in questions}
 
         q = id_map.get(ids[idx]) if idx < len(ids) else None
 
-        print("ANSWER LOAD TIME:", time.time() - start_time)
-
         if not q:
             session["index"] = idx + 1
-            save_today_set(str(date.today()), ids, session["index"])
+            save_today_set(str(date.today()), ids, session["index"], DAILY_FILE)
             return redirect("/mcq")
 
         correct = (options[selected] == q["correct"])
@@ -158,28 +195,24 @@ def register_routes(app):
             "status": "correct" if correct else "wrong"
         })
 
-        start_time = time.time()
-
-        save_questions(FILE, questions, "Materia Medica")
-
-        print("SAVE TIME:", time.time() - start_time)
+        save_questions(FILE, questions, subject)
 
         session["index"] = idx + 1
-        save_today_set(str(date.today()), ids, session["index"])
+        save_today_set(str(date.today()), ids, session["index"], DAILY_FILE)
 
         return redirect("/mcq")
 
 
     @app.route("/result")
     def result():
-        results = session.get("results", [])
+        subject = session.get("subject", "materia")
+        filename = SUBJECT_FILES.get(subject, "materia_medica.csv")
+        FILE = ensure_file(filename)
 
-        start_time = time.time()
+        results = session.get("results", [])
 
         questions = load_questions(FILE)
         id_map = {q["id"]: q for q in questions}
-
-        print("RESULT LOAD TIME:", time.time() - start_time)
 
         wrong_list = []
 
