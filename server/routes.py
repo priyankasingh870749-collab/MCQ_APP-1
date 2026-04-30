@@ -2,7 +2,6 @@ from flask import render_template, request, redirect, session
 from datetime import date, timedelta
 import csv
 import io
-import time
 import os
 import shutil
 
@@ -104,7 +103,11 @@ def register_routes(app):
             session["index"] = saved_index
         else:
             questions = load_questions(FILE)
-            due = get_due(questions)
+
+            # ✅ prevent same-day repeat
+            used_ids = set(session.get("today_ids", []))
+
+            due = get_due(questions, used_ids)
             ids = [q["id"] for q in due]
 
             save_today_set(today, ids, 0, DAILY_FILE)
@@ -159,7 +162,6 @@ def register_routes(app):
 
         DAILY_FILE = get_file_path("daily_sets.csv")
 
-        # ✅ SAFE INPUT
         answer_val = request.form.get("answer")
         if answer_val is None:
             return redirect("/mcq")
@@ -191,7 +193,6 @@ def register_routes(app):
 
         update_interval(q, correct)
 
-        # ✅ SAFE interval
         try:
             interval = int(q.get("interval", 1))
         except:
@@ -206,7 +207,6 @@ def register_routes(app):
             "status": "correct" if correct else "wrong"
         })
 
-        # ✅ SAFE SAVE
         try:
             save_questions(FILE, questions, subject)
         except Exception as e:
