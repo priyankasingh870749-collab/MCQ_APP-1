@@ -7,32 +7,42 @@ def get_due(questions, used_ids=None):
     # ✅ ensure used_ids is a set
     if used_ids is None:
         used_ids = set()
+    else:
+        used_ids = set(used_ids)
 
     due = []
 
-    # 👉 collect only truly due + not already used today
+    # 👉 collect only due + not already used today
     for q in questions:
         try:
+            next_date = q.get("next_date")
+
             if (
-                q.get("next_date")
-                and q["next_date"] <= today
-                and q["id"] not in used_ids   # ✅ prevent same-day repeat
+                next_date
+                and next_date <= today
+                and str(q.get("id")) not in used_ids
             ):
                 due.append(q)
-        except:
+        except Exception:
             continue
 
-    # ❌ no fallback (only due questions allowed)
+    # ❌ no fallback → strictly due only
     if not due:
         return []
 
     # 🔥 priority: wrong first
-    wrong = [q for q in due if q.get("last_result") == "wrong"]
-    correct = [q for q in due if q.get("last_result") != "wrong"]
+    wrong = []
+    correct = []
+
+    for q in due:
+        if q.get("last_result") == "wrong":
+            wrong.append(q)
+        else:
+            correct.append(q)
 
     final = wrong + correct
 
-    # ✅ limit to 120 questions per day
+    # ✅ max 120 per day
     return final[:120]
 
 
@@ -40,14 +50,14 @@ def update_interval(q, correct):
     # ✅ safe interval read
     try:
         interval = int(q.get("interval", 1))
-    except:
+    except Exception:
         interval = 1
 
     if correct:
-        # ✅ spaced repetition progression
-        if interval == 1:
+        # ✅ spaced repetition logic
+        if interval <= 1:
             q["interval"] = 7
-        elif interval == 7:
+        elif interval <= 7:
             q["interval"] = 15
         else:
             q["interval"] = 30
