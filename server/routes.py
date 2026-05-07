@@ -5,7 +5,11 @@ import sqlite3
 import os
 
 # ================= APP =================
-app = Flask(__name__)
+app = Flask(
+    __name__,
+    template_folder="../templates"
+)
+
 app.secret_key = "secret123"
 
 
@@ -373,14 +377,4 @@ def result():
         "result.html",
         score=score,
         total=total
-    )
-
-
-# ================= RUN =================
-if __name__ == "__main__":
-
-    app.run(
-        host="0.0.0.0",
-        port=5000,
-        debug=True
     )
