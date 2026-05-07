@@ -1,15 +1,15 @@
-from flask import Flask
-from server.routes import register_routes
+from server.routes import app
 import os
 
-app = Flask(__name__)
-app.secret_key = "secret-key"
-
-# register routes
-register_routes(app)
-
+# ================= START SERVER =================
 if __name__ == "__main__":
+
     print("Server running...")
 
     port = int(os.environ.get("PORT", 10000))
-    app.run(host="0.0.0.0", port=port)
+
+    app.run(
+        host="0.0.0.0",
+        port=port,
+        debug=True
+    )
