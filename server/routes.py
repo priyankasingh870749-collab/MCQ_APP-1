@@ -68,7 +68,7 @@ def load_questions(subject):
 
 
 # ================= SAVE QUESTIONS =================
-def save_questions(user_id, questions, subject):
+def save_questions(questions, subject):
 
     conn = get_connection(subject)
     cursor = conn.cursor()
@@ -108,6 +108,7 @@ def get_due(questions):
 
         else:
             try:
+
                 q_date = date.fromisoformat(next_date)
 
                 if q_date <= today:
@@ -121,15 +122,28 @@ def get_due(questions):
 
 def update_interval(q, correct):
 
-    interval = int(q.get("interval", 1))
-
-    if correct:
-        interval *= 2
-    else:
+    try:
+        interval = int(q.get("interval", 1))
+    except:
         interval = 1
 
-    q["interval"] = interval
-    q["last_result"] = "correct" if correct else "wrong"
+    if correct:
+
+        if interval <= 1:
+            q["interval"] = 7
+
+        elif interval <= 7:
+            q["interval"] = 15
+
+        else:
+            q["interval"] = 30
+
+        q["last_result"] = "correct"
+
+    else:
+
+        q["interval"] = 1
+        q["last_result"] = "wrong"
 
 
 # ================= LOGIN =================
@@ -194,6 +208,8 @@ def admin():
         option4 = request.form.get("option4")
         correct = request.form.get("correct")
 
+        subject = str(subject).strip().lower().replace(" ", "_")
+
         conn = get_connection(subject)
         cursor = conn.cursor()
 
@@ -253,8 +269,14 @@ def admin():
 
 
 # ================= START =================
-@app.route("/start", methods=["POST"])
+@app.route("/start", methods=["GET", "POST"])
 def start():
+
+    # IMPORTANT FIX
+    # prevents 405 error if someone opens /start directly
+
+    if request.method == "GET":
+        return redirect("/")
 
     if not session.get("user_id"):
         return redirect("/login")
@@ -262,6 +284,9 @@ def start():
     session["results"] = []
 
     subject = request.form.get("subject")
+
+    if not subject:
+        return redirect("/")
 
     subject = str(subject).strip().lower().replace(" ", "_")
 
@@ -312,7 +337,12 @@ def mcq():
 
         return redirect("/mcq")
 
-    return render_template("index.html", q=q)
+    return render_template(
+        "index.html",
+        q=q,
+        attempted=idx,
+        remaining=len(ids) - idx
+    )
 
 
 # ================= ANSWER =================
@@ -323,8 +353,6 @@ def answer():
         return redirect("/login")
 
     subject = session.get("subject")
-
-    user_id = session.get("user_id")
 
     selected = int(request.form.get("answer"))
 
@@ -353,7 +381,7 @@ def answer():
         "status": "correct" if correct else "wrong"
     })
 
-    save_questions(user_id, [q], subject)
+    save_questions([q], subject)
 
     session["index"] = idx + 1
 
@@ -369,7 +397,10 @@ def result():
 
     results = session.get("results", [])
 
-    score = len([r for r in results if r["status"] == "correct"])
+    score = len([
+        r for r in results
+        if r["status"] == "correct"
+    ])
 
     total = len(results)
 
@@ -377,4 +408,16 @@ def result():
         "result.html",
         score=score,
         total=total
+    )
+
+
+# ================= RUN =================
+if __name__ == "__main__":
+
+    port = int(os.environ.get("PORT", 10000))
+
+    app.run(
+        host="0.0.0.0",
+        port=port,
+        debug=True
     )
