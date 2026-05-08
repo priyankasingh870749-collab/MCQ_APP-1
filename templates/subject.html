@@ -1,72 +1,161 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Select Subject</title>
+
 <style>
-body {
-    font-family: Arial;
-    padding: 20px;
-    background-color: #f5f5f5;
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-.container {
-    max-width: 600px;
-    margin: auto;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+body{
+    font-family:Arial, sans-serif;
+    background:#f5f5f5;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
 }
 
-h3 {
-    margin-bottom: 20px;
-    text-align: center;
+.container{
+    width:100%;
+    max-width:650px;
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 0 15px rgba(0,0,0,0.08);
 }
 
-button {
-    width: 100%;
-    padding: 15px;
-    margin: 6px 0;
-    font-size: 16px;
-    border: none;
-    border-radius: 8px;
-    background-color: #007BFF;
-    color: white;
-    cursor: pointer;
+h2{
+    text-align:center;
+    margin-bottom:25px;
+    color:#333;
 }
 
-button:hover {
-    background-color: #0056b3;
+.grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px;
 }
+
+button{
+    width:100%;
+    padding:15px;
+    font-size:16px;
+    border:none;
+    border-radius:10px;
+    background:#007BFF;
+    color:white;
+    cursor:pointer;
+    transition:0.2s;
+}
+
+button:hover{
+    background:#0056b3;
+    transform:scale(1.02);
+}
+
+.footer{
+    margin-top:20px;
+    text-align:center;
+    font-size:14px;
+    color:gray;
+}
+
+@media(max-width:600px){
+
+    .grid{
+        grid-template-columns:1fr;
+    }
+
+    .container{
+        padding:20px;
+    }
+
+    button{
+        font-size:15px;
+        padding:14px;
+    }
+}
+
 </style>
-
 </head>
 
 <body>
 
 <div class="container">
 
-    <h3>Select Subject</h3>
+    <h2>Select Subject</h2>
 
+    <!-- IMPORTANT -->
+    <!-- This sends POST request correctly to /start -->
     <form method="POST" action="/start">
 
-        <button type="submit" name="subject" value="Materia Medica">Materia Medica</button>
-        <button type="submit" name="subject" value="Organon">Organon</button>
-        <button type="submit" name="subject" value="Repertory">Repertory</button>
-        <button type="submit" name="subject" value="FMT">FMT</button>
+        <div class="grid">
 
-        <button type="submit" name="subject" value="Anatomy">Anatomy</button>
-        <button type="submit" name="subject" value="Physiology">Physiology</button>
-        <button type="submit" name="subject" value="Pharmacy">Pharmacy</button>
-        <button type="submit" name="subject" value="Pathology">Pathology</button>
+            <button type="submit" name="subject" value="Materia Medica">
+                Materia Medica
+            </button>
 
-        <button type="submit" name="subject" value="OBG">OBG</button>
-        <button type="submit" name="subject" value="Surgery">Surgery</button>
-        <button type="submit" name="subject" value="Practice of Medicine">Practice of Medicine</button>
-        <button type="submit" name="subject" value="Community Medicine">Community Medicine</button>
+            <button type="submit" name="subject" value="Organon">
+                Organon
+            </button>
+
+            <button type="submit" name="subject" value="Repertory">
+                Repertory
+            </button>
+
+            <button type="submit" name="subject" value="FMT">
+                FMT
+            </button>
+
+            <button type="submit" name="subject" value="Anatomy">
+                Anatomy
+            </button>
+
+            <button type="submit" name="subject" value="Physiology">
+                Physiology
+            </button>
+
+            <button type="submit" name="subject" value="Pharmacy">
+                Pharmacy
+            </button>
+
+            <button type="submit" name="subject" value="Pathology">
+                Pathology
+            </button>
+
+            <button type="submit" name="subject" value="OBG">
+                OBG
+            </button>
+
+            <button type="submit" name="subject" value="Surgery">
+                Surgery
+            </button>
+
+            <button type="submit" name="subject" value="Practice of Medicine">
+                Practice of Medicine
+            </button>
+
+            <button type="submit" name="subject" value="Community Medicine">
+                Community Medicine
+            </button>
+
+        </div>
 
     </form>
+
+    <div class="footer">
+        Smart MCQ System 🚀
+    </div>
 
 </div>
 
